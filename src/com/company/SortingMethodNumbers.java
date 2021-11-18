@@ -1,7 +1,6 @@
 package com.company;
 
 public class SortingMethodNumbers extends SortingMethodChars{
-    @Override
     public void getDescendingChar(char[] numbersDescending){
         for(int c = numbersDescending.length-1 ; c > 0 ; c--){
             for(int n = 0 ; n < c ; n++){
@@ -13,7 +12,6 @@ public class SortingMethodNumbers extends SortingMethodChars{
             }
         }
     }
-    @Override
     public void getAscendingChar(char[] numbersAscending){
         for(int i = numbersAscending.length-1 ; i > 0 ; i--){
             for(int j = 0 ; j < i ; j++){
